@@ -1,0 +1,598 @@
+/* font-family: "Raleway", sans-serif */
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    /* background: url('img/waste.png');  */
+    background-color: black; 
+    /* padding: 5px 0px; */
+    /* margin: 5px; */
+}
+.logo{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 45px;
+}
+.logo img{
+    width: 70px;
+    border:3px solid white;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+.logo1{
+  display: none;
+}
+.navlist{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-size-adjust: 20%;
+    padding: 5px 420px;
+}
+.navlist li{
+    list-style: none;
+    padding: 15px 30px;
+
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-size: 120%;
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown  {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .reg:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .reg:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .reg:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .reg:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .navbar a:hover, .dropdown:hover{
+    background-color: white;
+  }
+  .dropbtn:hover{
+    background-color: gray;
+  }
+  hr{
+    padding:5px 10px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: url('img/nav\ bg.png'); 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 13px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .slide{
+    margin: 2px 0px;
+  }
+  .mySlides{
+    height:80vh;
+  }
+  #changer3{
+    height:90vh;
+  }
+  .imp{
+    display: flex; 
+    padding:2px 2px;
+    top:0;
+    cursor: pointer;
+  }
+  .news{
+    display: flex;
+    width:10%;
+    height: 6vh;
+    margin: 6px;
+    color: white;
+    background: url('img/nav\ bg.png');
+    box-shadow: 0px 8px 16px 0px rgba(205, 204, 204, 0.2);
+    z-index: 1;
+    font-size: 16px; 
+    /* padding:2px 50px; */
+  }
+  .notice{
+    width: 90%;
+    border: 2px solid gray;
+    height: 6vh;
+    margin: 6px;
+    color: black;
+    background-color: white; 
+    box-shadow: 0px 8px 16px 0px rgba(158, 156, 156, 0.2);
+    z-index: 1;
+    font-size: 16px;
+    padding:2px 50px;
+    font-family: "Raleway", sans-serif;
+  }
+  .last{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    position: sticky;
+}
+b{
+    margin:2px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 200%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+  justify-content:center;
+    background-color: #ccc;
+    color: black;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ccc;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px ;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.contact{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+#mar{
+    color:black;
+}
+#mar:hover{
+       color: purple;
+  }
+.content{
+      height:50vh;
+      color: #000!important;
+      /* background-color: #f1f1f1!important; */
+      margin:10px 10px;
+}
+.contentdiv{
+  height:90vh;
+      color: #000!important;
+      background-color: #f1f1f1!important;
+      margin:10px 10px;
+}
+
+
+
+.span{
+    display: none; 
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+    color: white;
+}
+.closebtn{
+display: none; 
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+    color: white;
+}
+
+.txt1{
+    font-size: 50px;
+}
+.scho1{
+  width: 100%;
+  border: 2px solid gray;
+  height: 10vh;
+  margin: 50px 0px;
+  color: black;
+  /* background-color: #f1f1f1!important; */
+  box-shadow: 0px 8px rgb(158 156 156 / 20%);
+  z-index: 1;
+  /* font-size: 25px; */
+  padding: 0px 50px;
+  background: url('img/waste.png');
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  display: flex;
+}
+.edu{
+    font-size: 30px;
+}
+/* .scholarship{
+    padding:10px 30px;
+    margin:2px 5px;
+    
+} */
+.txt{
+  font-size: 25px;
+    padding: 12px 50px;
+    font-family: "Raleway", sans-serif;
+    width: 90%;
+    color: white;
+}
+.Button{
+  display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+}
+.btn{
+  font-size: 16px;
+    padding: 2px 60px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 2px;
+    color: white;
+    background: url('img/waste.png');
+}
+.btn1{
+  font-size: 16px;
+    margin: 30px;
+    padding: 20px 60px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 15px;
+    color: white;
+    /* width: 2%; */
+    background: url('img/waste.png');
+    cursor: pointer;
+}
+.btn1:hover{
+  background: url('img/waste2.png');
+}
+.btn2{
+  font-size: 16px;
+    margin: 30px;
+    padding: 20px 60px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 15px;
+    color: white;
+    /* width: 2%; */
+    background: url('img/waste.png');
+    cursor: pointer;
+    display: block;
+}
+.content{
+  margin:42px 20px;
+
+}
+.different{
+  margin:40px 50px;
+}
+.scholarship-for{
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+}
+.overlay{
+  display:none;
+}
+.explore{
+  
+  background-color: #f1f1f1!important;  
+  /* background: url('img/waste2.png'); */
+  /* background-size: cover; */
+  /* background: url('img/waste2.png'); */
+  /* margin:5px; */
+  height:40vh;
+  font-family: "Raleway", sans-serif;
+}
+.main{
+  height:30vh;
+  color: #000!important;
+  margin:71x 51px;
+  /* display: flex;
+  flex-direction: column; */
+}
+h4{
+  padding:16px 20px;
+  width:50%;
+  color: #000!important;
+  color:white;
+  margin:-24px 329px;
+}
+.exp-con{
+    /* display: flex; */
+    font-size: 20px;
+    text-align: center;
+    margin: 10px; 
+    padding:36px 44px; 
+}
+.para{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  /* color:white; */
+}
+.but{
+  margin: -22px 484px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .overlay{
+    display:flex;
+  }
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+    .column {
+      width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 10vh;
+    }
+    .navlist{
+        flex-direction: column;
+        height: 4vh;
+        display: none;
+    }
+    .dropdown-content{
+        flex-direction: column;
+        float: right;
+        display: none;
+    }
+    .span{
+        display: block;
+    }
+     /* .hide{
+        opacity: 0;
+    }  */
+    .content{
+      height: 100vh;
+    }
+    .contentdiv{
+      height: 140vh;
+    }
+    .Button{
+      /* display: block;
+      width: 100%; */
+      padding: 10px 0px;
+      flex-direction: column;
+    }
+    .scho1{
+      width:100%;
+      height: 20vh;
+      display: block;
+      /* height:20vh; */
+    }
+    .txt{
+      font-size: 25px;
+      padding: 0px;
+      display: block;
+      width: 100%;
+      margin:10px;
+    }
+    .news{
+      width:30%;
+    }
+    .logo {
+      width: 400px;
+      display: block;
+      /* justify-content: center; */
+      /* align-items: center; */
+      padding: 0px 30px;
+      margin: 10px 10px;
+  }
+  .overlay {
+    height: 60%;
+    width: 60%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: url('img/nav\ bg.png'); 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+   a{
+    text-decoration: white;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+    .myNav{
+        width:50px;
+    }
+  
+  .span{
+    /* padding: 20px 1750px; */
+    color: white;
+  }
+  .logo1{
+    width: 30px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 2px 30px;
+    color:white;
+    display: none;
+}
+.logo1 img{
+    width: 70px;
+    border:3px solid white;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+.btn1{
+  font-size: 16px;
+    margin: 5px 10px;
+    padding: 15px 15px;
+    /* font-family: "Raleway", sans-serif; */
+    border-radius: 15px;
+    /* color: white; */
+    /* width: 2%; */
+    /* background: url(img/waste.png); */
+    /* display: block; */
+    background: url('img/waste.png');
+    cursor: pointer;
+}
+.btn1:hover{
+  background: url('img/waste2.png');
+}
+.explore{
+  height:50vh;
+}
+h4{
+  padding: 16px 3px;
+    width: 100%;
+    color: #000!important;
+    color: white;
+    text-align: center;
+    margin: -34px -8px;
+}
+.but{
+  margin: 62px -28px;
+}
+.map{
+  width:300px;
+}
+.or{
+  margin: 10px 134px;
+}
+}
+/* .line
+{    content: "";
+  position: absolute;
+  height: 4px;
+  background: #e6ac16;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  width: 38px;
+  z-index: 1;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -19px;} */
+
+
+
