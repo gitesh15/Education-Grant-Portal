@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="menu page.css">
+    <title>Education Grant Scholarship Portal</title>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo"><img src="logo.png"alt="logo"></div>
+    <ul class="navlist hide" id="Hide">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+            <li><a class="ss" href="index.html">Home</a>
+            <li><div class="dropdown">
+                <button class="dropbtn">Scholarship </button>
+                <div class="dropdown-content">
+                  <a href="redirect">All Scholarships</a>
+                  <a href="#">Categories</a>
+                  <a href="#">State</a>
+                  <a href="#">Current class</a>
+                  <a href="#">International</a>
+                  <a href="#">Government</a>
+                </div>
+              </div> </li>
+              <li><div class="dropdown">
+                <button class="dropbtn"> login</button>
+                <div class="dropdown-content">
+                  <a href="user page.html">User</a>
+                  <a href="admin page.html">Admin</a>
+                </div>
+              </div> </li>
+            <li><a href="Article.html">Article</a></li>
+            <li><a href="#Q&A">Q&A</a></li>
+            
+            <!-- <li><a href="#Register">Register</a></li> -->
+        </ul>
+    </ul>
+    <div id="myNav" class="overlay">
+      
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <div class="logo1"><img src="logo.png"alt="logo">Education Grant Portal</div>
+          <a class="ss" href="index.html">Home</a>
+          <a href="search">All Scholarships</a>
+          <a href="register.html">Register</a></li>
+            <a href="login form.html">Login</a>
+            <a href="Article.html">Article</a>
+            
+      </div>
+    </div>
+    <span class="span" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.display = "block";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.display = "none";
+    }
+    </script>
+</nav>
+<section class="slide">
+    <img class="mySlides" id="changer1" src="slider.png" style="width:100%">
+    <img class="mySlides" id="changer3" src="changer3.jpg" style="width:100%;height:80vh">
+    <img class="mySlides" id="changer2" src="Scholarship.jpg" style="width:100%">
+    <img class="mySlides" id="changer2" src="maxresdefault.jpg" style="width:100%">
+</section>
+  <script>
+    var myIndex = 0;
+    open();
+    function open() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(open, 3000);
+    }
+    </script>
+    <article class="imp">
+        <div class="news"><b>Important news:</b> </div>
+        <div class="notice"><marquee id="mar" class="marque" width="100%" direction="left" height="100px"><b>☞&nbsp;India Smiling Foundational Scholarship & Mentorship Programme <a href="https://www.colgate.com/en-in/smile-karo-aur-shuru-ho-jao/foundation-scholarship"><blink>click here</blink></a></b></marquee></div>
+        <script>onclick="mar.stop()"</script>
+    </article>
+<section class="scholarship" id="scholar">
+        <b class="txt1"><center>Scholarship Platform</center></b>
+        <h3 class="edu"><Center>Making Education Affordable</Center></h3>
+        <div class="scho1">
+            <p class="txt">Be the first one to know about scholarships</p>
+            <div class="Button">
+                <button type="button" class="btn" id="BTN" onclick="open()"><a href="register.html" class="reg">Register now</a></button>
+<script>
+  function open(){
+    document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
+  }
+  
+</script>
+        </div>
+     </div>    
+</section>
+<section class="explore">
+  <div class="main">
+    <div class="exp-con">
+      <p class="para"><br><h4>For more than 30 years, the  Scholarship Foundation has been committed to providing financial aid to first-generation college students.</h4>
+      <div class="but"><button class="btn2" >Explore Scholarships</button></div></p>
+      
+      <!-- <div class="flip">
+        <img src="img/maxresdefault.jpg" alt="Avatar" class="image">
+      </div> -->
+  </div>
+</div>
+</section> 
+<section class="content">
+    <!-- <div class="contentdiv"> -->
+        <p class="scholarship-for" id="redirect"><b>Scholarships for</b></p>
+        <hr class="line">
+        <div class="different">
+            <button class="btn1" >Upto class 8</button>
+            <button class="btn1" >Pre Matric</button>
+            <button class="btn1" >Engineering</button>
+            <button class="btn1" >Medical</button>
+            <button class="btn1" >Management</button>
+            <button class="btn1" >Law</button>
+            <button class="btn1" >Study Abroad</button>
+            <button class="btn1" >Sports</button>
+        </div>
+    <!-- </div> -->
+</section> 
+<section class="contentdiv">
+    <!-- <div class="contentdiv"> -->
+        <p class="scholarship-for"><b>Scholarships in states</b></p><hr>
+        <div class="different">
+            <button class="btn1" >Uttar Pradesh</button>
+            <button class="btn1" >Maharashtra</button>
+            <button class="btn1" >Madhya Pradesh</button>
+            <button class="btn1" >Rajasthan</button>
+            <button class="btn1" >Tamilnadu</button>
+            <button class="btn1" >Karnataka</button>
+            <button class="btn1" >Andhra Pradesh</button>
+            <button class="btn1" >Gujarat</button>
+            <button class="btn1" >Haryana</button>
+            <button class="btn1" >Assam</button>
+            <button class="btn1" >West Bengal</button>
+            <button class="btn1" >Bihar</button>
+            <button class="btn1" >Delhi</button>
+            <button class="btn1" >Himachal Pradesh</button>
+            <button class="btn1" >NSP Scholarships</button>
+            
+        </div>
+    <!-- </div> -->
+</section> 
+<section>
+  <link rel="Stylesheet" href="style.css">
+  <div class="form-container">
+
+    <form action="" method="post">
+       <h3>Contact Us</h3>
+       <input type="text" name="name" required placeholder="enter your name">
+       <input type="email" name="email" required placeholder="enter your email">
+       <!-- <select name="user_type">
+          <option value="user">user</option>
+          <option value="admin">admin</option>
+       </select> -->
+       <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+       <input type="submit" name="submit" value="Submit" class="form-btn">
+    </form>
+    <center class="or"><b>or</b></center>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.3877873716106!2d76.04000401476843!3d22.972763384978315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631796781f9435%3A0x202e9f5e18f31d1e!2sShiv%20Shakti%20Park!5e0!3m2!1sen!2sin!4v1665299919062!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+ </div>
+</section>
+<section>
+<footer class="last">
+  <p class="Footer">
+      copyright &copy; 2027 - www.EDGrant Scholarship Portal.com - All rights reserved
+  </p>
+</footer>
+</section>
+</body>
+</html>
