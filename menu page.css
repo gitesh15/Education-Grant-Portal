@@ -471,8 +471,8 @@ h4{
       margin: 10px 10px;
   }
   .overlay {
-    height: 60%;
-    width: 60%;
+    height: 48%;
+    width: 94%;
     display: none;
     position: fixed;
     z-index: 1;
@@ -521,6 +521,13 @@ h4{
     }
     .myNav{
         width:50px;
+    }
+    #changer3{
+      height:40vh;
+
+    }
+    .mySlides{
+      height:40vh
     }
   
   .span{
