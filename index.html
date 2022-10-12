@@ -9,7 +9,7 @@
 </head>
 <body>
 <nav class="navbar">
-    <div class="logo"><img src="logo.png"alt="logo"></div>
+    <div class="logo"><img src="logo.png"alt="logo"><h6>Education Grant Scholarship Portal</h6></div>
     <ul class="navlist hide" id="Hide">
         <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
             <li><a class="ss" href="index.html">Home</a>
@@ -53,7 +53,7 @@
                   <a href="#">Current class</a>
                   <a href="#">International</a>
                   <a href="#">Government</a>
-                </div> -->
+                </div>  -->
           <a href="register.html">Register</a></li>
             <a href="login form.html">Login</a>
             <a href="Article.html">Article</a>
@@ -66,14 +66,29 @@
     <script>
     function openNav() {
       document.getElementById("myNav").style.display = "block";
+      document.getElementById("mar").style.display = "none";
+      document.getElementById("exp").style.display = "none";
+      document.getElementById("scholar").style.display = "none";
+      document.getElementById("con").style.display = "none";
+      document.getElementById("for").style.display = "none";
+      document.getElementById("las").style.display = "none";
+      document.getElementById("cd").style.display = "none";
+      
     }
     
     function closeNav() {
       document.getElementById("myNav").style.display = "none";
+      document.getElementById("mar").style.display = "block";
+      document.getElementById("exp").style.display = "block";
+      document.getElementById("scholar").style.display = "block";
+      document.getElementById("con").style.display = "block";
+      document.getElementById("for").style.display = "block";
+      document.getElementById("las").style.display = "block";
+      document.getElementById("cd").style.display = "block";
     }
     </script>
 </nav>
-<section class="slide">
+<section class="slide" >
     <img class="mySlides" id="changer1" src="slider.png" style="width:100%">
     <img class="mySlides" id="changer3" src="changer3.jpg" style="width:100%"> 
     <img class="mySlides" id="changer2" src="Scholarship.jpg" style="width:100%">
@@ -97,7 +112,7 @@
     <article class="imp" id="ip" >
      
         <div class="news"><b>Important news:</b> </div>
-        <div class="notice"><marquee id="mar" class="marque" width="100%" direction="left" height="100px"><b>☞&nbsp;India Smiling Foundational Scholarship & Mentorship Programme <a href="https://www.colgate.com/en-in/smile-karo-aur-shuru-ho-jao/foundation-scholarship"><blink>click here</blink></a></b></marquee></div>
+        <div class="notice"><marquee id="mar" class="marque" width="100%" direction="left" height="100px"><b class="mar">☞&nbsp;India Smiling Foundational Scholarship & Mentorship Programme <a href="https://www.colgate.com/en-in/smile-karo-aur-shuru-ho-jao/foundation-scholarship"><blink>click here</blink></a></b></marquee></div>
     </article>
 <section class="scholarship" id="scholar">
         <b class="txt1"><center>Scholarship Platform</center></b>
@@ -115,35 +130,93 @@
         </div>
      </div>    
 </section>
-<section class="explore">
+<section class="explore" id="exp">
   <div class="main">
     <div class="exp-con">
       <p class="para"><br><h4>For more than 30 years, the  Scholarship Foundation has been committed to providing financial aid to first-generation college students.</h4>
-      <div class="but"><button class="btn2" >Explore Scholarships</button></div></p>
-      
+      <div class="but"><button class="btn2"id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships" >Explore Scholarships</a></button></div></p>
+      <script>
+        function link(){
+          document.getElementById("BTN1").innerHTML=<a href=""></a>;
+        }
+        
+      </script>
       <!-- <div class="flip">
         <img src="img/maxresdefault.jpg" alt="Avatar" class="image">
       </div> -->
   </div>
 </div>
 </section> 
-<section class="content">
+<section class="content" id="con">
     <!-- <div class="contentdiv"> -->
         <p class="scholarship-for" id="redirect"><b>Scholarships for</b></p>
         <hr class="line">
         <div class="different">
-            <button class="btn1" >Upto class 8</button>
-            <button class="btn1" >Pre Matric</button>
-            <button class="btn1" >Engineering</button>
-            <button class="btn1" >Medical</button>
-            <button class="btn1" >Management</button>
-            <button class="btn1" >Law</button>
-            <button class="btn1" >Study Abroad</button>
-            <button class="btn1" >Sports</button>
+            <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/upcoming-scholarships/class-1-to-8">Upto class 8</a></button>
+            <script>
+              function link(){
+                document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/upcoming-scholarships/class-1-to-8"></a>;
+              }
+              
+            </script>
+              <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/class-1-to-10-pre-matric-scholarship-in-india">Pre Matric</a></button>
+              <script>
+                function link(){
+                  document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/class-1-to-10-pre-matric-scholarship-in-india"></a>;
+                }
+                
+              </script>
+                  <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/engineering?ref=HomePageScholarship">Engineering</a></button>
+                  <script>
+                    function link(){
+                      document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/engineering?ref=HomePageScholarship"></a>;
+                    }
+                    
+                  </script>
+                   </script>
+                   <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/medical?ref=HomePageScholarship">Medical</a></button>
+                   <script>
+                     function link(){
+                       document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/medical?ref=HomePageScholarship"></a>;
+                     }
+                     
+                   </script>
+                    </script>
+                    <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/management?ref=HomePageScholarship">Management</a></button>
+                    <script>
+                      function link(){
+                        document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/management?ref=HomePageScholarship"></a>;
+                      }
+                      
+                    </script>
+                     </script>
+                     <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/law?ref=HomePageScholarship">Law</a></button>
+                     <script>
+                       function link(){
+                         document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/law?ref=HomePageScholarship"></a>;
+                       }
+                       
+                     </script>
+                      </script>
+                      <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/study-abroad?ref=HomePageScholarship">Study Abroad</a></button>
+                      <script>
+                        function link(){
+                          document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/study-abroad?ref=HomePageScholarship"></a>;
+                        }
+                        
+                      </script>
+                      <button class="btn1" id="BTN1" onclick="link()" ><a href="https://www.buddy4study.com/scholarships/sports-talent?ref=HomePageScholarship">Sports</a></button>
+                      <script>
+                        function link(){
+                          document.getElementById("BTN1").innerHTML=<a href="https://www.buddy4study.com/scholarships/sports-talent?ref=HomePageScholarship"></a>;
+                        }
+                        
+                      </script>
+            
         </div>
     <!-- </div> -->
 </section> 
-<section class="contentdiv">
+<section class="contentdiv" id="cd">
     <!-- <div class="contentdiv"> -->
         <p class="scholarship-for"><b>Scholarships in states</b></p><hr>
         <div class="different">
@@ -168,7 +241,7 @@
 </section> 
 <section>
   <link rel="Stylesheet" href="style.css">
-  <div class="form-container">
+  <div class="form-container" id="for">
 
     <form action="" method="post">
        <h3>Contact Us</h3>
@@ -188,7 +261,7 @@
  </div>
 </section>
 <section>
-<footer class="last">
+<footer class="last" id="las">
   <p class="Footer">
       copyright &copy; 2027 - www.EDGrant Scholarship Portal.com - All rights reserved
   </p>
