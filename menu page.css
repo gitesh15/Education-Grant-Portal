@@ -4,31 +4,33 @@
     padding:0;
 }
 .navbar{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    position: sticky;
-    top: 0;
-    cursor: pointer;
-    /* background: url('img/waste.png');  */
-    background-color: black; 
-    /* padding: 5px 0px; */
-    /* margin: 5px; */
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  /* background: url(img/waste.png); */
+  background-color: black;
+  /* padding: 5px 0px; */
+  margin: 1px;
 }
 .logo{
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 13px 45px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 10px 145px;
+  /* margin: 0px 0px; */
 }
+
 .logo img{
-    width: 70px;
-    border:3px solid white;
+  width: 200px;
+    height: 10vh;
+    border: 3px solid white;
     border-radius: 50px;
     background-color: white;
-    
-}
+    /* padding: 0px -17px; */
+  }
 .logo1{
   display: none;
 }
@@ -37,7 +39,7 @@
     display: flex;
     align-items: center;
     text-size-adjust: 20%;
-    padding: 5px 420px;
+    /* padding: 5px 420px; */
 }
 .navlist li{
     list-style: none;
@@ -450,7 +452,8 @@ h4{
     }
     .navbar{
         flex-direction: column;
-        height: 10vh;
+        height: 12vh;
+        background-color: #f1f1f1!important;
     }
     .navlist{
         flex-direction: column;
@@ -497,12 +500,12 @@ h4{
       width:30%;
     }
     .logo {
-      width: 400px;
-      display: block;
+      /* width: 400px;
+      display: block; */
       /* justify-content: center; */
       /* align-items: center; */
-      padding: 0px 30px;
-      margin: 10px 10px;
+      padding: 4px 0px;
+      margin: 0px -2px;
   }
   h6{
     color: white;
@@ -510,8 +513,8 @@ h4{
     padding: 12px 21px;
   }
   .overlay {
-    height: 55%; 
-    width: 50%;
+    height: 67%; 
+    width: 68%;
     display: none;
     position: fixed;
     z-index: 1;
@@ -573,7 +576,7 @@ h4{
   
   .span{
     /* padding: 20px 1750px; */
-    color: white;
+    color: black;
   }
   .logo1{
     width: 30px;
