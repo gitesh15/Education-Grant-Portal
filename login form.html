@@ -14,12 +14,18 @@
    
 <div class="form-container">
 
-   <form action="" method="post">
+   <form action="user.html" method="post">
       <h3>login now</h3>
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">
-      <input type="submit" name="submit" value="login now" class="form-btn">
+      <input type="submit" id="submit" name="submit" value="login now" class="form-btn" onclick="open()">
       <p>don't have an account? <a href="register.html">register now</a></p>
+      <!-- <script>
+         function open(){
+           document.getElementById("submit").innerHTML=<a href="user.html"></a>;
+         }
+         
+       </script> -->
    </form>
 
 </div>

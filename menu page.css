@@ -329,6 +329,14 @@ display: none;
     width: 90%;
     color: white;
 }
+.txt2{
+  font-size: 25px;
+    padding: 12px 50px;
+    font-family: "Raleway", sans-serif;
+    width: 90%;
+    color: white;
+    margin:10px 50px;
+}
 .Button{
   display: flex;
     flex-direction: column;
@@ -440,6 +448,17 @@ h4{
 }
 
 @media screen and (max-width: 600px) {
+  .txt2 {
+    font-size: 18px;
+    padding: 35px 1px;
+    font-family: "Raleway", sans-serif;
+    /* width: 59%; */
+    color: white;
+    margin: 15px -28px;
+    display: flex;
+    flex-direction: column;
+    /* width: 50px; */
+}
   .overlay{
     display:flex;
   }
@@ -453,7 +472,8 @@ h4{
     .navbar{
         flex-direction: column;
         height: 12vh;
-        background-color: #f1f1f1!important;
+        /* background-color: #f1f1f1!important; */
+        background-color: black;
     }
     .navlist{
         flex-direction: column;
@@ -576,7 +596,7 @@ h4{
   
   .span{
     /* padding: 20px 1750px; */
-    color: black;
+    color: wheat;
   }
   .logo1{
     width: 30px;
