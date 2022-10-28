@@ -17,19 +17,18 @@
   margin: 1px;
 }
 .logo{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 1px 0px;
-    color: white;
-    margin: -2px 3px;
-    display: flex;
-  /* margin: 0px 0px; */
+  color: white;
+  margin: -35px -3px;
+  display: flex;
+  /* margin: 0px 0px;*/
 }
 
 .logo img{
   width: 135px;
-  height: 11vh;
+  height: 19vh;
+  margin: -10px 2px;
+  padding: 18px 0px;
   /* border: 3px solid white; */
   /* border-radius: 50px; */
   /* background-color: white; */
@@ -46,13 +45,15 @@
     padding: 5px 420px;
 }
 .heading{
-  width: 65%;
-  display: flex;
+  width: -17%;
+  display: block;
   text-size-adjust: 20%;
-  color: white;
-  padding: 18px 1px;
-  flex-direction: column;
+  /* color: #cea600; */
+  color:#ccc;
+  padding: 48px 1px;
   text-align: center;
+  flex: none;
+  font-size: 20px;
 }
 .navlist li{
     list-style: none;
@@ -311,6 +312,12 @@ display: none;
 .txt1{
     font-size: 50px;
 }
+.underline{
+  color: #cea600;
+  width:20px;
+  height:5vh;
+  padding:10px 10px;
+}
 .scho1{
   width: 100%;
   border: 2px solid gray;
@@ -460,7 +467,7 @@ h4{
   z-index: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .txt2 {
     font-size: 18px;
     padding: 35px 1px;
@@ -506,9 +513,11 @@ h4{
     }  */
     .content{
       height: 100vh;
+      padding: 88px 39px;
     }
     .contentdiv{
       height: 140vh;
+      padding: 114px 51px;
     }
     .Button{
       /* display: block;
@@ -539,6 +548,9 @@ h4{
       /* align-items: center; */
       padding: 4px 0px;
       margin: 0px -2px;
+  }
+  .logo img{
+    margin: -31px 2px;
   }
   h6{
     color: white;
@@ -671,7 +683,7 @@ h4{
 }
 .heading{
   width:0%;
-  padding:20px 1px;
+  padding:2px 1px;
 }
 }
 
