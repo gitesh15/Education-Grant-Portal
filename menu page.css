@@ -762,10 +762,10 @@ h4{
   padding:2px 1px;
 }
 .expcon0{
-  height: 45vh;
-  width: 49%;
-  margin: -37px -474px;
-  padding: 52px 168px;
+  height: 52vh;
+    width: 53%;
+    margin: -35px -467px;
+    padding: 53px 172px;
 }
 h4{
   font-size: 23px;
@@ -776,7 +776,7 @@ h4{
 }
 .image0{
   display: block;
-  width:356px;
+  width:372px;
   height:35vh;
   margin:-13px -468px
 }
@@ -810,10 +810,13 @@ h5{
   height:112vh;
 }
 .image{
-  width: 358px;
+  width: 369px;
   height: 35vh;
   margin: -1px -51px;
   padding: 0px 0px;
+}
+.content {
+  margin: 97px 20px;
 }
 }
 
