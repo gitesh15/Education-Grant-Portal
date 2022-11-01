@@ -544,7 +544,7 @@ display: none;
     color: white;
     /* width: 2%; */
     /* background: url('waste.png'); */
-    background-color: #0d3273;
+    background-color: #113d88;
     cursor: pointer;
     display: block;
 }
@@ -891,7 +891,7 @@ h4{
 h4{
   font-size: 23px;
     /* padding: 0px 1px; */
-    margin: -45px -135px;
+    margin: 71px -127px;
     width: 256px;
     text-align: left;
 }
@@ -913,10 +913,9 @@ h4{
   margin:146px 323px;
 } */
 /* */.btn2{ 
-  font-size:17px;
-  margin: -89px -448px;
-  padding:7px 2px;
-}
+  margin: -111px -474px;
+    padding: 14px 26px;
+    font-size: 25px;}
 h2{
   margin: 8px 4px;
     font-size: 32px;
@@ -931,8 +930,8 @@ h5{
   margin: -31px 38px;
 }
 .but{
-  margin:0px 0px;
-  padding:10px 10px;
+  margin: -304px 315px;
+    padding: 43px 0px;
 }
 .exp-con{
   margin: 10px 469px;
