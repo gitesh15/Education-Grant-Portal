@@ -68,6 +68,7 @@
    padding:20px;
    padding-bottom: 60px;
    background: #eee;
+   
 }
 
 .form-container form{
@@ -141,6 +142,9 @@ textarea{
    margin:10px 10px;
    font-size: 25px;
 }
+show{
+   color:black;
+}
 .form-container {
    min-height: 100vh;
    display: flex;
@@ -149,6 +153,7 @@ textarea{
    padding: 20px;
    padding-bottom: 60px;
    background: #eee;
+   box-shadow: 5px 10px 8px 10px #888888; 
 }
 @media screen and (max-width: 400px) {
 .form-container form {

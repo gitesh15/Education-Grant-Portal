@@ -35,11 +35,14 @@
     text-align: left;
     justify-content: left;
 }
+a.visited{
+  color:black;
+}
 @media screen and (max-width: 600px) {
    
     .Article{
       flex-direction: column;
-      margin: 101px 24px;
+      margin: 7px 24px;
     }
     .img4{
       width: 300px;
@@ -47,8 +50,7 @@
     }
     .small2{
       width: 300px;
-      margin: 15px -14px;
-      margin: 2px -57px;
+      margin: 2px -75px;
       font-size: 20px;
     }
     .big2{
@@ -80,3 +82,7 @@ font-size: 20px;
     background-color: transparent;
     text-decoration: underline;
   }
+  a:visited{
+    color:black;
+  }
+}
