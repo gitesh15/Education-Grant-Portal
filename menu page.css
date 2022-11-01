@@ -380,19 +380,23 @@ display: none;
 
 .scho1{
   width: 50%;
-  border: 2px solid gray;
-  height: 40vh;
-  margin: 75px 17px;
-  color: black;
-  background-color:#0d3273; 
-  box-shadow: 0px 8px rgb(158 156 156 / 20%);
-  z-index: 1;
-  /* font-size: 25px; */
-  padding: 0px 50px;
-  /* background: url('waste.png'); */
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  display: flex;
+    /* border: 2px solid gray; */
+    display: flex;
+    height: 40vh;
+    /* margin: 75px 17px; */
+    /* color: black; */
+    background-color: #0d3273;
+    box-shadow: 0px 8px rgb(158 156 156 / 20%);
+    /* z-index: 1; */
+    margin: 84px 42px;
+    /* font-size: 25px; */
+    padding: 0px 54px;
+    /* background: url(waste.png); */
+    font-family: "Raleway", sans-serif;
+    /* text-align: center; */
+    /* display: flex; */
+    border-right:13px solid #bc087a;
+    border-bottom:13px solid #bc087a;
 }
 .edu{
     font-size: 26px;
@@ -400,16 +404,26 @@ display: none;
     font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
 }
 .image{
-  margin:0px -50px;
-  padding:0px 0px;
+  margin: -46px -52px;
+    padding: 45px 0px;
+    height: 372px;
+    width: 361px;
 }
 
 .txt{
-  font-size: 25px;
-    padding: 12px 50px;
-    font-family: "Raleway", sans-serif;
-    width: 90%;
+  font-size: 24px; 
+    /* padding: 83px 114px; */
+    /* font-family: "Raleway", sans-serif; */
+    /* width: 90%; */
     color: white;
+    /* margin: 5px -11px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* min-height: 80vh; */
+    margin: 12px 108px;
+    padding: 0px 75px;
+    font-size: 30px;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
 }
 .txt2{
   font-size: 25px;
@@ -420,17 +434,29 @@ display: none;
     margin:10px 50px;
 }
 .Button{
-  display: flex;
-    flex-direction: column;
-    padding: 10px 60px;
+  margin: 174px 0px;
 }
 .btn{
-  font-size: 16px;
-    padding: 2px 60px;
+  /* font-size: 16px; */
+    padding: 8px 5px;
     font-family: "Raleway", sans-serif;
     border-radius: 2px;
     color: white;
     background-color: #0d3273;
+    margin: 68px -257px;
+    font-size: 24px;
+}
+.btn:hover{
+  color:white;
+}
+.btn:visited{
+  color:white;
+}
+.btn::before{
+  color: white;
+}
+.btn::after{
+  color: white;
 }
 .btn1{
   font-size: 16px;
@@ -493,7 +519,7 @@ h6{
   /* background-size: cover; */
   /* background: url('img/waste2.png'); */
   /* margin:5px; */
-  height:110vh;
+  height:100vh;
   font-family: "Raleway", sans-serif;
   /* box-shadow: 5px 10px 8px 10px #888888; */
 }
@@ -512,10 +538,10 @@ h4{
   margin:-15px 27px;
   text-align: left;
 }
-.txt{
+/* .txt{
   margin: 10px 10px;
 
-}
+} */
 .exp-con{
     /* display: flex; */
     font-size: 20px;
@@ -583,17 +609,17 @@ h4{
         opacity: 0;
     }  */
     .content{
-      height: 122vh;
-      padding: 88px 0px;
+      height: 71vh;
+    padding: 45px 0px;
     }
     .contentdiv{
-      height: 193vh;
-      padding: 114px 18px;
+      height: 160vh;
+      padding: 46px px;
     }
     .Button{
       /* display: block;
       width: 100%; */
-      padding: 10px 0px;
+      padding: 9px 0px;
       flex-direction: column;
     }
     .scho1{
@@ -607,12 +633,12 @@ h4{
       font-size: 25px;
     padding: 0px;
     display: block;
-    width: 100%;
-    margin: 50px 0px;
+    width: 108%;
+    margin: 55px 1px;
     }
     .btn{
       font-size: 20px;
-      margin: -31px 12px;
+      margin: -54px 12px;
     }
     .news{
       width:30%;
@@ -740,16 +766,16 @@ h4{
     text-align: center;
     margin: -34px -8px;
 }
-.but{
+/* .but{
   margin: 62px -28px;
-}
+} */
 .map{
   width: 300px;
   padding: 0px 0px;
   margin: 19px 25px;
 }
 .or{
-  margin: 10px 134px;
+  margin: 11px 152px;
 }
 .last{
   flex-direction: column;
@@ -764,8 +790,9 @@ h4{
 .expcon0{
   height: 52vh;
     width: 53%;
-    margin: -35px -467px;
+    margin: -252px -467px;
     padding: 53px 172px;
+    
 }
 h4{
   font-size: 23px;
@@ -776,19 +803,19 @@ h4{
 }
 .image0{
   display: block;
-  width:372px;
-  height:35vh;
-  margin:-13px -468px
+  width: 372px;
+  height: 91vh;
+  margin: -13px -468px;
 }
 .explore{
-  height: 95vh;
+  height: 138vh;
 }
 /* */.para{
   font-size: 20px;
 }
-.but{
+/* .but{
   margin:146px 323px;
-}
+} */
 /* */.btn2{ 
   font-size:17px;
   margin: -89px -448px;
@@ -801,7 +828,13 @@ h2{
 h5{
   margin: 5px 7px;
 }
-
+.Button{
+  margin: -31px 38px;
+}
+.but{
+  margin:0px 0px;
+  padding:10px 10px;
+}
 .exp-con{
   margin: 10px 469px;
     padding: 36px 0px;
@@ -816,7 +849,7 @@ h5{
   padding: 0px 0px;
 }
 .content {
-  margin: 97px 20px;
+  margin: 261px 10px;
 }
 }
 
