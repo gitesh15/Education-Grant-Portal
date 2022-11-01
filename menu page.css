@@ -379,24 +379,44 @@ display: none;
 }
 
 .scho1{
-  width: 50%;
+  width: 45%;
     /* border: 2px solid gray; */
     display: flex;
-    height: 40vh;
+    height: 32vh;
     /* margin: 75px 17px; */
     /* color: black; */
-    background-color: #0d3273;
+    background-color: #bc087a;;
     box-shadow: 0px 8px rgb(158 156 156 / 20%);
     /* z-index: 1; */
-    margin: 84px 42px;
+    margin: 88px 42px;
     /* font-size: 25px; */
     padding: 0px 54px;
     /* background: url(waste.png); */
     font-family: "Raleway", sans-serif;
     /* text-align: center; */
     /* display: flex; */
-    border-right:13px solid #bc087a;
-    border-bottom:13px solid #bc087a;
+    /* border-right:13px solid #bc087a;
+    border-bottom:13px solid #bc087a; */
+}
+.scho2{
+  width: 45%;
+    /* border: 2px solid gray; */
+    display: flex;
+    height: 32vh;
+    /* margin: 75px 17px; */
+    /* color: black; */
+    background-color: #0c746a;
+    box-shadow: 0px 8px rgb(158 156 156 / 20%);
+    /* z-index: 1; */
+    margin: 88px -19px;
+    /* font-size: 25px; */
+    padding: 0px 54px;
+    /* background: url(waste.png); */
+    font-family: "Raleway", sans-serif;
+    /* text-align: center; */
+    /* display: flex; */
+    /* border-right:13px solid #bc087a;
+    border-bottom:13px solid #bc087a; */
 }
 .edu{
     font-size: 26px;
@@ -406,7 +426,13 @@ display: none;
 .image{
   margin: -46px -52px;
     padding: 45px 0px;
-    height: 372px;
+    height: 301px;
+    width: 361px;
+}
+.image1{
+  margin: -46px -52px;
+    padding: 45px 0px;
+    height: 301px;
     width: 361px;
 }
 
@@ -420,7 +446,23 @@ display: none;
     /* display: flex; */
     /* flex-direction: column; */
     /* min-height: 80vh; */
-    margin: 12px 108px;
+    margin: -2px 40px;
+    padding: 0px 75px;
+    font-size: 30px;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+
+.txt00{
+  font-size: 24px; 
+    /* padding: 83px 114px; */
+    /* font-family: "Raleway", sans-serif; */
+    /* width: 90%; */
+    color: white;
+    /* margin: 5px -11px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* min-height: 80vh; */
+    margin: -2px 40px;
     padding: 0px 75px;
     font-size: 30px;
     font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
@@ -436,14 +478,32 @@ display: none;
 .Button{
   margin: 174px 0px;
 }
+.Button00{
+  margin: 174px 0px;
+}
+.join{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 43px;
+}
 .btn{
   /* font-size: 16px; */
     padding: 8px 5px;
     font-family: "Raleway", sans-serif;
     border-radius: 2px;
     color: white;
-    background-color: #0d3273;
-    margin: 68px -257px;
+    background-color: #bc087a;;
+    margin: -8px -280px;
+    font-size: 24px;
+}
+.btn00{
+  /* font-size: 16px; */
+    padding: 8px 5px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 2px;
+    color: white;
+    background-color: #0c746a;
+    margin: -8px -280px;
     font-size: 24px;
 }
 .btn:hover{
@@ -613,8 +673,8 @@ h4{
     padding: 45px 0px;
     }
     .contentdiv{
-      height: 160vh;
-      padding: 46px px;
+      height: 111vh;
+      margin: -80px 23px;
     }
     .Button{
       /* display: block;
@@ -622,11 +682,24 @@ h4{
       padding: 9px 0px;
       flex-direction: column;
     }
+    .Button00{
+      /* display: block;
+      width: 100%; */
+      padding: 9px 0px;
+      flex-direction: column;
+    }
     .scho1{
-      width: 100%;
+      width: 121%;
     height: 72vh;
     display: block;
-    margin: 82px 0px;
+    margin: 82px -25px;
+      /* height:20vh; */
+    }
+    .scho2{
+      width: 121%;
+    height: 72vh;
+    display: block;
+    margin: -43px -25px;
       /* height:20vh; */
     }
     .txt{
@@ -636,10 +709,31 @@ h4{
     width: 108%;
     margin: 55px 1px;
     }
-    .btn{
-      font-size: 20px;
-      margin: -54px 12px;
+    .txt00{
+      font-size: 25px;
+    padding: 0px;
+    display: block;
+    width: 108%;
+    margin: 55px 1px;
     }
+    .btn{
+      font-size: 30px;
+      margin: 3px -22px;
+    }
+    .btn00{
+      font-size: 29px;
+      margin: -43px -36px;
+    }
+    .txt{
+      font-size: 36px;
+    }
+    .txt00{
+      font-size: 36px;
+    }
+    .join {
+      display: flex;
+      flex-direction: column;
+      }
     .news{
       width:30%;
     }
@@ -809,6 +903,8 @@ h4{
 }
 .explore{
   height: 138vh;
+  width:95%;
+  margin: -140px 18px;
 }
 /* */.para{
   font-size: 20px;
@@ -831,6 +927,9 @@ h5{
 .Button{
   margin: -31px 38px;
 }
+.Button00{
+  margin: -31px 38px;
+}
 .but{
   margin:0px 0px;
   padding:10px 10px;
@@ -840,7 +939,7 @@ h5{
     padding: 36px 0px;
 }
 .scholarship{
-  height:112vh;
+  height:200vh;
 }
 .image{
   width: 369px;
@@ -848,8 +947,17 @@ h5{
   margin: -1px -51px;
   padding: 0px 0px;
 }
+.image1{
+  width: 369px;
+  height: 35vh;
+  margin: -1px -51px;
+  padding: 0px 0px;
+}
 .content {
-  margin: 261px 10px;
+  margin: 139px 23px;
+}
+.end{
+  margin: 108px 23px;
 }
 }
 
