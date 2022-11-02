@@ -689,7 +689,7 @@ h4{
   z-index: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .txt2 {
     font-size: 18px;
     padding: 35px 1px;
@@ -1231,7 +1231,7 @@ margin:6px 150px;
 .reg001:after{
   background-color:  #0d3273;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 .art{
   margin:0px 12px;
   padding:0px 0px;
