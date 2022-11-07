@@ -90,14 +90,13 @@
     }
     </script>
 </nav>
-<section class="section">
-<div class="maindes">
-    <img class="mySlides" id="changer1" src="scholarship-bg-1920.jpg" style="width:100%"></div>
-    <!-- <img class="mySlides" id="changer3" src="changer3.jpg" style="width:100%"> 
+<section class="slide" >
+    <img class="mySlides" id="changer1" src="slider.png" style="width:100%">
+    <img class="mySlides" id="changer3" src="changer3.jpg" style="width:100%"> 
     <img class="mySlides" id="changer2" src="Scholarship.jpg" style="width:100%">
-    <img class="mySlides" id="changer2" src="maxresdefault.jpg" style="width:100%"> -->
-
-  <!-- <script>
+    <img class="mySlides" id="changer2" src="maxresdefault.jpg" style="width:100%">
+</section>
+  <script>
     var myIndex = 0;
     open();
     function open() {
@@ -111,15 +110,7 @@
       x[myIndex-1].style.display = "block";
       setTimeout(open, 3000);
     }
-    </script> -->
-    <div class="md">
-    <div class="design">
-      <div class="designin">
-        <p class="para001"><br><h3>For more than 30 years, the  Scholarship Foundation has been committed to providing financial aid to first-generation college students.</h3>
-      </div>
-    </div>
-    </div>
-  </section>
+    </script>
     <article class="imp" id="ip" >
      
         <div class="news"><b>Important news:</b> </div>
@@ -133,9 +124,9 @@
           <img class="image" id="c" src="register.jpg">
             <p class="txt">Be the first one to know about scholarships</p>
             <div class="Button">
-                <button type="button" class="btn" id="BTN" onclick="open1()"><a href="register.html" class="reg">Register now<b class="arrow">→</b></a></button>
+                <button type="button" class="btn" id="BTN" onclick="open()"><a href="register.html" class="reg">Register now<b class="arrow">→</b></a></button>
 <script>
-  function open1(){
+  function open(){
     document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
   }
   
@@ -146,9 +137,9 @@
       <img class="image1" id="c" src="eligibility.png">
         <p class="txt00">Be the first one to know about scholarships</p>
         <div class="Button00">
-            <button type="button" class="btn00" id="BTN" onclick="open2()"><a href="register.html" class="reg">Check eligibility<b class="arrow">→</b></a></button>
+            <button type="button" class="btn00" id="BTN" onclick="open()"><a href="" class="reg">Check eligibility<b class="arrow">→</b></a></button>
 <script>
-function open2(){
+function open(){
 document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
 }
 
@@ -180,8 +171,8 @@ document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
 </div>
 </section> 
 
-<!-- <section class="content" id="con"> -->
-    <!-- <div class="contentdiv"> 
+<section class="content" id="con">
+    <!-- <div class="contentdiv"> -->
         <p class="scholarship-for" id="redirect"><b>Scholarships for</b></p><hr class="underline">
         <hr class="line">
         <div class="different">
@@ -247,10 +238,10 @@ document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
                       </script>
             
         </div>
-    </div> 
+    <!-- </div> -->
 </section> 
- <section class="contentdiv" id="cd">
-    <div class="contentdiv"> 
+<section class="contentdiv" id="cd">
+    <!-- <div class="contentdiv"> -->
         <p class="scholarship-for"><b>Scholarships in states</b></p><hr>
         <div class="different">
             <button class="btn1"id="BTN1" onclick="link()" ><a href="scholarship.html">Uttar Pradesh</a></button>  <script>
@@ -359,8 +350,8 @@ document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
             </script>
             
         </div>
-    <!-- </div> 
-</section>  -->
+    <!-- </div> -->
+</section> 
 <section class="explore0" id="exp">
   <h2>Discover Scholarships</h2>
   <h5>You could be the one who starts something great</h5>
