@@ -155,7 +155,7 @@
     margin: 2px 0px;
   }
   .mySlides{
-    height:80vh;
+    height:84vh;
     /* position: sticky; */
     display: flex;
 
@@ -682,7 +682,7 @@ h3{
     /* display: flex; */
     font-size: 20px;
     text-align: center;
-    margin: -297px 131px; 
+    margin: -325px 131px; 
     padding:186px 17px;
     background-color: #bc087a ;
     width: 36%;
