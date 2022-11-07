@@ -12,7 +12,7 @@
   top: 0;
   cursor: pointer;
   /* background: url(img/waste.png); */
-  background-color: black;
+  background-color: white;
   /* padding: 5px 0px; */
   margin: 1px;
 }
@@ -42,7 +42,7 @@
     display: flex;
     align-items: center;
     text-size-adjust: 20%;
-    padding: 5px 530px;
+    padding: 0px 530px;
 }
 .heading{
   width: -17%;
@@ -129,7 +129,7 @@
     display: none;
     position: absolute;
     background: url('nav\ bg.png'); 
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     font-size: 13px;
@@ -317,10 +317,17 @@ b{
   }
   h1{
     color: #0d3273;
-    margin: -4px 146px;
+    margin: -4px 39px;
     font-size: 40px;
     padding: 10px 10px;
     font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+  }
+  .head{
+      color: #0d3273;
+      margin: 0px 0px;
+      font-size: 28px;
+      padding: 0px 24px;
+      font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
   }
   h5{
     color: black;
@@ -331,27 +338,45 @@ b{
   }
   .expcon0{
     background-color:#0d3273;
-    width:65%;
+   height: 50vh;
     color:#f1f1f1;
-    padding:53px 10px;
+    padding:25px 124px;
     display:flex;
     flex-direction: column;
-    margin: -395px -391px;
+    margin: -185px 10px;
     position: sticky;
-    border-left:13px solid #bc087a;
-    border-top:13px solid #bc087a;
+    /* border-left:13px solid #bc087a;
+    border-top:13px solid #bc087a; */
   }
+  .extra {
+    background-color: #bc087a;
+    width: 71%;
+    color: #f1f1f1;
+    padding: 185px 6px;
+    display: flex;
+    flex-direction: column;
+    margin: -414px -402px;
+    position: sticky;
+}
+.extra0 {
+  background-color: #bc087a;
+  width: 71%;
+  color: #f1f1f1;
+  padding: 185px 6px;
+  display: flex;
+  flex-direction: column;
+  margin: -414px -402px;
+  position: sticky;
+}
   .expcon00{
     background-color:#0d3273;
-    width:65%;
-    color:#f1f1f1;
-    padding:53px 10px;
-    display:flex;
-    flex-direction: column;
-    margin: -395px -391px;
-    position: sticky;
-    border-left:13px solid #bc087a;
-    border-top:13px solid #bc087a;
+    height: 50vh;
+     color:#f1f1f1;
+     padding:25px 124px;
+     display:flex;
+     flex-direction: column;
+     margin: -185px 10px;
+     position: sticky;
   }
   .box{
     background-color: #bc087a;
@@ -521,7 +546,7 @@ display: none;
     border-radius: 2px;
     color: white;
     background-color: #bc087a;
-    margin: -8px -280px;
+    margin: -8px -300px;
     font-size: 24px;
 }
 .btn00{
@@ -531,7 +556,7 @@ display: none;
     border-radius: 2px;
     color: white;
     background-color: #0c746a;
-    margin: -8px -280px;
+    margin: -8px -315px;
     font-size: 24px;
 }
 .btn:hover{
@@ -644,11 +669,11 @@ h6{
   flex-direction: column; */
 }
 h4{
-  padding:19px 8px;
-  width:85%;
+  padding:61px 1px;
+ 
   /* color: #000!important; */
   color:white;
-  margin:-15px 27px;
+  margin:-48px -75px;
   text-align: left;
 }
 h3{
@@ -726,11 +751,11 @@ h3{
   /* color:white; */
 }
 .but{
-  margin: -22px 484px;
+  margin: -10px 370px;
 
 }
 .but0{
-  margin: -22px 484px;
+  margin: -10px 370px;
 
 }
 .mar{
@@ -765,7 +790,7 @@ h3{
         flex-direction: column;
         height: 12vh;
         /* background-color: #f1f1f1!important; */
-        background-color: black;
+        background-color: white;
     }
     .navlist{
         flex-direction: column;
@@ -787,6 +812,17 @@ h3{
       height: 126vh;
     padding: 45px 0px;
     }
+    .extra {
+      background-color: #bc087a;
+      width: 101%;
+      color: #f1f1f1;
+      padding: 103px 27px;
+      display: flex;
+      height: 55vh;
+      flex-direction: column;
+      margin: -63px -7px;
+      position: sticky;
+  }
     .contentdiv{
       height: 173vh;
       margin: 344px 23px;
@@ -859,7 +895,7 @@ h3{
       /* justify-content: center; */
       /* align-items: center; */
       padding: 4px 0px;
-      margin: 0px -2px;
+      margin: 3px -2px;
   }
   .logo img{
     margin: -31px 2px;
@@ -877,7 +913,8 @@ h3{
     z-index: 1;
     /* top: 0; */
     /* left: 0; */
-    background: url(nav\ bg.png);
+    /* background: url(nav\ bg.png); */
+    background-color: white;
   }
   
   .overlay-content {
@@ -917,6 +954,7 @@ h3{
     font-size: 40px;
     top: 15px;
     right: 35px;
+    color:#0d3273
     }
     .myNav{
         width:50px;
@@ -931,7 +969,8 @@ h3{
   
   .span{
     /* padding: 20px 1750px; */
-    color: wheat;
+    color: #0d3273;
+    margin: 23px 16px;
   }
   .logo1{
     width: 30px;
@@ -1000,10 +1039,10 @@ h4{
   padding:2px 1px;
 }
 .expcon0{
-  height: 50vh;
-  width: 89%;
-  margin: -98px -12px;
-  width: 349px;
+  height: 52vh;
+ 
+  margin: -103px -26px;
+  width: 333px;
   text-align: left;
     
 }
@@ -1018,7 +1057,7 @@ h4{
 h4{
   font-size: 20px;
     /* padding: 0px 1px; */
-    margin: 18px 19px;
+    margin: 16px -80px;
     width: 256px;
     text-align: left;
 }
@@ -1049,10 +1088,10 @@ h4{
 .explore{
   height: 105vh;
   width:94%;
-  margin: 115px 15px;
+  margin: 251px 15px;
 }
 .explore0{
-  height: 105vh;
+  height: 55vh;
   width:94%;
   margin: 115px 15px;
 }
@@ -1087,12 +1126,12 @@ h5{
   margin: -31px 38px;
 }
 .but{
-  margin: -304px 315px;
+  margin: -300px 212px;
     padding: 43px 0px;
 }
 .but0{
-  margin: -304px 315px;
-    padding: 43px 0px;
+  margin: -300px 212px;
+  padding: 43px 0px;
 }
 /* .exp-con{
   margin: 10px 469px;

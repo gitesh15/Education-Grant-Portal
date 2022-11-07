@@ -25,6 +25,13 @@
     text-align: center;
     margin: 2px;
 }
+.header{
+  color: #0d3273;
+  margin: 0px 0px;
+  font-size: 28px;
+  padding: 0px 24px;
+  font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
 .small2{
     font-size: 30px;
     width: 100%;
