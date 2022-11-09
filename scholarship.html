@@ -10,29 +10,29 @@
 <body>
 <nav class="navbar">
     <div class="logo">
-      <img src="logomain.png"alt="logo"><p class="heading">Scholarship Recommendation Portal</p></div>
+      <img src="logomain.png"alt="logo"><p class="heading"></p></div>
     <ul class="navlist hide" id="Hide">
         <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-            <li><a class="ss" href="index.html">Home</a>
+            <li><a class="ss" href="index.html"><h1 class="head">Home</h1></a>
             <li><div class="dropdown">
-                <button class="dropbtn">Scholarship </button>
+                <button class="dropbtn"><h1 class="head">Scholarship</h1> </button>
                 <div class="dropdown-content">
-                  <a href="redirect">All Scholarships</a>
-                  <a href="#">Categories</a>
-                  <a href="#">National</a>
-                  <a href="#">Current class</a>
-                  <a href="#">International</a>
-                  <a href="#">Government</a>
+                  <a href="scholarship.html">All Scholarships</a>
+                  <a href="scholarship.html">Categories</a>
+                  <a href="scholarship.html">National</a>
+                  <a href="scholarship.html">Current class</a>
+                  <a href="scholarship.html">International</a>
+                  <a href="scholarship.html">Government</a>
                 </div>
               </div> </li>
               <li><div class="dropdown">
-                <button class="dropbtn"> login</button>
+                <button class="dropbtn"> <h1 class="head">login</h1></button>
                 <div class="dropdown-content">
                   <a href="user page.html">User</a>
                   <a href="admin page.html">Admin</a>
                 </div>
               </div> </li>
-            <li><a href="Article.html">Article</a></li>
+            <li><a href="Article.html"><h1 class="head">Article</h1></a></li>
             <!-- <li><a href="#Q&A">Q&A</a></li>  -->
             
             <!-- <li><a href="#Register">Register</a></li> -->
@@ -43,8 +43,8 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         <div class="logo1"><img src="logo.png"alt="logo">Education Grant Portal</div>
-          <a class="ss" href="index.html">Home</a>
-          <a href="search">All Scholarships</a>
+          <a class="ss" href="index.html"><h1 class="head">Home</h1></a>
+          <a href="scholarship.html"><h1 class="head">All Scholarships</h1></a>
           <!-- <div class="dropdown">
                 <button class="dropbtn">Scholarship </button>
                 <div class="dropdown-content">
@@ -55,9 +55,9 @@
                   <a href="#">International</a>
                   <a href="#">Government</a>
                 </div>  -->
-          <a href="register.html">Register</a></li>
-            <a href="login form.html">Login</a>
-            <a href="Article.html">Article</a>
+          <a href="register.html"><h1 class="head">Register</h1></a></li>
+            <a href="login form.html"><h1 class="head">Login</h1></a>
+            <a href="Article.html"><h1 class="head">Article</h1></a>
             
           </div>  
       </div>
@@ -90,6 +90,28 @@
     }
     </script>
 </nav>
+<section class="slide" >
+  <img class="mySlides" id="changer1" src="slider.png" style="width:100%">
+  <img class="mySlides" id="changer3" src="changer3.jpg" style="width:100%"> 
+  <img class="mySlides" id="changer2" src="Scholarship.jpg" style="width:100%">
+  <img class="mySlides" id="changer2" src="maxresdefault.jpg" style="width:100%">
+</section>
+<script>
+  var myIndex = 0;
+  open();
+  function open() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(open, 3000);
+  }
+  </script>
+  </section>
 <div class="art">
     <div class="art1">
             <a href="index.html" class="sc1">Home</a>
@@ -120,9 +142,10 @@
           <marquee><b>Important Dates:</b>Application Starting Date - 8th July 2022 |Application Deadline - 7th November 2022</marquee>
 
         </div>
-        <div class="divpart1">
+        <!--
           <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://scholarship.up.gov.in/#" class="reg001">Apply now</a></button>
-        </div>
+        </div> -->
+        <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://scholarship.up.gov.in/#" class="reg001">Apply now</a></button>
         
 <script>
   function open001(){
@@ -144,9 +167,8 @@
         <marquee><b>Important Dates:</b>Application Starting Date -  20th October 2022 |Application Deadline - 10th November 2022</marquee>
 
       </div>
-      <div class="divpart1">
+      
         <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://www.drdo.gov.in/" class="reg001">Apply now</a></button>
-      </div>
       
 <script>
 function open001(){
@@ -168,9 +190,7 @@ function open001(){
         <marquee><b>Eligibility</b>Applicants must be studying in Classes 1 to 12.|<b>Benefits:</b>For Classes 1 to 8 students - INR 24,000 | For Classes 9 to 12 students - INR 30,000</marquee>
 
       </div>
-      <div class="divpart1">
         <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://www.buddy4study.com/page/aditya-birla-capital-covid-scholarship-program" class="reg001">Apply now</a></button>
-      </div>
       
 <script>
 function open001(){
@@ -196,9 +216,9 @@ function open001(){
           &nbsp;|be pursuing studies in Class 11 and 12 at any CBSE-affiliated school whose tuition fee is not more than INR 1,500 per month</marquee>
 
       </div>
-      <div class="divpart1">
+    
         <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://cbseit.in/cbse/2022/sgcx/default.aspx" class="reg001">Apply now</a></button>
-      </div>
+    
       
 <script>
 function open001(){
@@ -222,9 +242,9 @@ function open001(){
           &nbsp;|not be getting any other Centrally-funded Pre-Matric Scholarship</marquee>
 
       </div>
-      <div class="divpart1">
+    
         <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://directorateofhighereducation.assam.gov.in/" class="reg001">Apply now</a></button>
-      </div>
+      
       
 <script>
 function open001(){
@@ -248,9 +268,9 @@ function open001(){
           |Last date for Institute verification: 30th November 2022</marquee>
 
       </div>
-      <div class="divpart1">
+    
         <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://scholarships.gov.in/" class="reg001">Apply now</a></button>
-      </div>
+    
       
 <script>
 function open001(){
@@ -278,9 +298,9 @@ function open001(){
           &nbsp;|not have short attendance</marquee>
 
       </div>
-      <div class="divpart1">
+    
         <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://postmatric-scholarship.cg.nic.in/" class="reg001">Apply now</a></button>
-      </div>
+      
       
 <script>
 function open001(){
@@ -307,9 +327,9 @@ function open001(){
         &nbsp;|<b>Exam Accepted:</b>IELTS - 6.5</marquee>
 
     </div>
-    <div class="divpart1">
+  
       <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/courses/usa" class="reg001">Apply now</a></button>
-    </div>
+    
     
 <script>
 function open001(){
@@ -337,9 +357,9 @@ document.getElementById("touch").innerHTML=<a href="https://admission.buddy4stud
       &nbsp;|<b>Exam Accepted:</b>IELTS - 6</marquee>
 
   </div>
-  <div class="divpart1">
+
     <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/course/united-states-saint-james-school-of-medicine-chicago-1073/masters-degree-md-equivalent-to-mbbs-4434" class="reg001">Apply now</a></button>
-  </div>
+  
   
 <script>
 function open001(){
@@ -367,9 +387,9 @@ document.getElementById("touch").innerHTML=<a href="https://admission.buddy4stud
       &nbsp;|<b>Exam Accepted:</b>IELTS - 7</marquee>
 
   </div>
-  <div class="divpart1">
+
     <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/course/united-states-gastronomicom-coral-gables-54/under-graduate-diploma-gourmet-program-in-cooking-and-pastry-one-month-102" class="reg001">Apply now</a></button>
-  </div>
+  
   
 <script>
 function open001(){
@@ -397,9 +417,9 @@ document.getElementById("touch").innerHTML=<a href="https://admission.buddy4stud
       &nbsp;|<b>Exam Accepted:</b>IELTS - 4</marquee>
 
   </div>
-  <div class="divpart1">
+
     <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/course/united-states-american-english-college-monterey-park-372/short-courses-intensive-english-program-2045" class="reg001">Apply now</a></button>
-  </div>
+
   
 <script>
 function open001(){
@@ -427,9 +447,9 @@ document.getElementById("touch").innerHTML=<a href="https://admission.buddy4stud
       &nbsp;|<b>Exam Accepted:</b>IELTS - 6</marquee>
 
   </div>
-  <div class="divpart1">
+
     <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/course/new-zealand-victoria-university-of-wellington-wellington-2077/bachelors-degree-bachelor-of-architectural-studies-bas-42319" class="reg001">Apply now</a></button>
-  </div>
+  
   
 <script>
 function open001(){
@@ -457,9 +477,9 @@ document.getElementById("touch").innerHTML=<a href="https://admission.buddy4stud
       &nbsp;|<b>Exam Accepted:</b>IELTS - 6.5</marquee>
 
   </div>
-  <div class="divpart1">
+
     <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/college/australia-university-of-melbourne-melbourne-1224" class="reg001">Apply now</a></button>
-  </div>
+
   
 <script>
 function open001(){
@@ -487,9 +507,9 @@ document.getElementById("touch").innerHTML=<a href="https://admission.buddy4stud
       &nbsp;|<b>Exam Accepted:</b>IELTS - 6.5</marquee>
 
   </div>
-  <div class="divpart1">
+
     <button type="button" class="drop" id="touch" onclick="open001()"><a href="https://admission.buddy4study.com/college/france-lyon-international-business-school-lyon-1109" class="reg001">Apply now</a></button>
-  </div>
+
   
 <script>
 function open001(){

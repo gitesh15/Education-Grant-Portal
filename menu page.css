@@ -287,6 +287,12 @@ b{
       margin:10px 10px;
       box-shadow: 5px 10px 8px 10px #888888; 
 }
+.btn2:hover{
+  color:white;
+}
+.btn20:hover{
+  color:white;
+}
 /* .content {
 
   background-color: red;
@@ -352,20 +358,36 @@ b{
     background-color: #bc087a;
     width: 71%;
     color: #f1f1f1;
-    padding: 185px 6px;
+    padding: 110px 0px;
     display: flex;
     flex-direction: column;
-    margin: -414px -402px;
+    margin: -332px -402px;
     position: sticky;
+}
+.extra:hover{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #bc087a;
+}
+.expcon0:hover{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #0d3273;
+}
+.extra0:hover{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #bc087a;
+}
+.expcon00:hover{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #0d3273;
 }
 .extra0 {
   background-color: #bc087a;
   width: 71%;
   color: #f1f1f1;
-  padding: 185px 6px;
+  padding: 110px 0px;
   display: flex;
   flex-direction: column;
-  margin: -414px -402px;
+  margin: -332px -402px;
   position: sticky;
 }
   .expcon00{
@@ -450,6 +472,10 @@ display: none;
     /* border-right:13px solid #bc087a;
     border-bottom:13px solid #bc087a; */
 }
+.scho1:hover{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #bc087a;
+}
 .scho2{
   width: 45%;
     /* border: 2px solid gray; */
@@ -469,6 +495,10 @@ display: none;
     /* display: flex; */
     /* border-right:13px solid #bc087a;
     border-bottom:13px solid #bc087a; */
+}
+.scho2:hover{
+  border: 1px solid;
+  box-shadow: 5px 10px 18px #0c746a;
 }
 .edu{
     font-size: 26px;
@@ -852,6 +882,15 @@ h3{
     display: block;
     margin: -43px -25px;
       /* height:20vh; */
+    }
+    .scho1:hover{
+      border: 1px solid;
+      box-shadow: 5px 10px 18px #bc087a;
+    }
+ 
+    .scho2:hover{
+      border: 1px solid;
+      box-shadow: 5px 10px 18px #0c746a;
     }
     .txt{
       font-size: 25px;
@@ -1350,7 +1389,7 @@ margin:6px 150px;
 .reg001:after{
   background-color:  #0d3273;
 }
-/* @media screen and (max-width: 758px) { */
+ /* @media screen and (max-width: 600px) {  */
 .art{
   margin:0px 12px;
   padding:0px 0px;
@@ -1411,5 +1450,133 @@ margin:6px 150px;
   /* width: 89%; */
 }
 }
-
+.art1{
+  margin: 2px 10px;
+  padding: 9px 0px; 
+  border: 3px solid #000; 
+  display: flex; 
+  width: 99%;
+  background-color: #dbdfe6;
+  font-size: 18px;
+}
+.art1:hover{
+  background-color: #393f49;
+}
+.divpart1{
+  margin: 14px -61px;
+  padding: 12px 220px; 
+  width: 44%;
+  width: 89%;
+}
+.join2{
+  display: flex;
+  flex-wrap: wrap;
+  margin:6px 150px;
+  }
+  .part1{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }
+  .part1{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }.part2{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }.part3{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }.part4{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }.part5{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }.part6{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }.part7{
+    margin:45px 23px;
+    padding:0px 0px;
+    height:30vh;
+    width:45%;
+    border:2px solid black;
+  }
+  .division{
+    margin: 3px 0px;
+    padding: 0px 10px;
+    border-bottom: 2px solid black;
+  }
+  .divpart{
+    margin: -3px 0px;
+    padding: 11px 13px;
+    border-bottom: 2px solid black;
+    background-color:  #0d3273;
+    color:white;
+  }
+  .imp00{
+    margin: 11px 0px;
+    padding: 0px 10px;
+  }
+  .divpart1{
+    margin: 14px 0px;
+    padding: 4px 225px;
+    background-color: #0d3273;
+  }
+  .low{
+    margin: -11px -3px;
+    padding: 8px 10px;
+    height: 11vh;
+  }
+  .drop{
+    padding: 8px 224px;
+    margin: 21px 0px;
+    background-color: #0d3273;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .sc1{
+  /* color:#000; */
+  font-size: 25px;
+  margin: 3px 35px;
+  color:white;
+  
+}
+.sc1:hover{
+  color:#000;
+  background-color: white;
+} 
+.sc2:hover{
+  color:#000;
+  background-color: white;
+} 
+.sc2{
+  color:white;
+  font-size: 25px;
+  margin: -1px 62px;
+  padding: 1px 11px;
+  border-left:3px solid #000 ;
+  
+}
 
