@@ -96,10 +96,26 @@
    background: #eee;
    border-radius: 5px;
 }
+#submit{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+#submit:hover{
+   background:  #393f49;
+}
 
 .form-container form select option{
    background: #fff;
 }
+
+.res:hover{
+   color:white;
+}
+
 
 .form-container form .form-btn{
    background: #dbdfe6;

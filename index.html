@@ -123,7 +123,10 @@
     <article class="imp" id="ip" >
      
         <div class="news"><b>Important news:</b> </div>
-        <div class="notice"><marquee id="mar" class="marque" width="100%" direction="left" height="100px"><b class="mar">☞&nbsp;India Smiling Foundational Scholarship & Mentorship Programme <a href="https://www.colgate.com/en-in/smile-karo-aur-shuru-ho-jao/foundation-scholarship"><blink>click here</blink></a></b></marquee></div>
+        <div class="notice"><marquee id="mar" class="marque" width="100%" direction="left" height="100px">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-fill" viewBox="0 0 16 16">
+            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5h16V4H0V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5z"/>
+          </svg><b class="mar">☞&nbsp;India Smiling Foundational Scholarship & Mentorship Programme <a href="https://www.colgate.com/en-in/smile-karo-aur-shuru-ho-jao/foundation-scholarship"><blink>click here</blink></a></b></marquee></div>
     </article>
 <section class="scholarship" id="scholar">
         <b class="txt1"><center><h1><b>Scholarship Platform</b></h1></center></b>
@@ -208,7 +211,7 @@ document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
   <link rel="Stylesheet" href="style.css">
   <div class="form-container" id="for">
 
-    <form action="" method="post">
+    <form >
        <h1>Contact Us</h1>
        <input type="text" name="name" required placeholder="enter your name">
        <input type="email" name="email" required placeholder="enter your email">
@@ -218,7 +221,13 @@ document.getElementById("BTN").innerHTML=<a href="register.html"></a>;
        </select> -->
        <label for="subject">Subject</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-       <input type="submit" name="submit" value="Submit" class="form-btn">
+       <input type="submit" name="submit" value="Submit" class="form-btn" id="Stu" onclick="submit()">
+       <script>
+           function submit(){
+          alert("Thank You");
+        }
+        
+       </script>
     </form>
     <center class="or"><b>or</b></center>
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.3877873716106!2d76.04000401476843!3d22.972763384978315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39631796781f9435%3A0x202e9f5e18f31d1e!2sShiv%20Shakti%20Park!5e0!3m2!1sen!2sin!4v1665299919062!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
