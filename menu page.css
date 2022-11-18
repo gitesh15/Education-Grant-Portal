@@ -196,13 +196,14 @@
   .last{
     text-align: center;
     padding: 30px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
     display: flex;
     justify-content: center;
-    color: white;
-    background-color: black;
-    position: sticky;
-}
+    color: #0d3273;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: black; */
+    position: sticky;}
 a:link {
   color: white;
   background-color: transparent;
@@ -313,6 +314,10 @@ b{
     margin:24px -50px;
     /* -webkit-mask-image: linear-gradient(black, transparent);
   mask-image: linear-gradient(black, transparent); */
+  }
+  .image0012{
+    margin: -6px -50px;
+    height: 70vh;
   }
   h2{
     color: #0d3273;
@@ -507,47 +512,33 @@ display: none;
     font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
 }
 .image{
-  margin: -34px -52px;
-  padding: 32px 0px;
+  margin: -43px -54px;
+  padding: 43px 0px;
   height: 296px;
   width: 361px;
 }
 .image1{
-  margin: -34px -52px;
-  padding: 32px 0px;
-  height: 296px;
-  width: 361px;
+  margin: -43px -54px;
+    padding: 43px 0px;
+    height: 296px;
+    width: 361px;
 }
 
 .txt{
-  font-size: 24px; 
-    /* padding: 83px 114px; */
-    /* font-family: "Raleway", sans-serif; */
-    /* width: 90%; */
-    color: white;
-    /* margin: 5px -11px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* min-height: 80vh; */
-    margin: -2px 40px;
-    padding: 0px 75px;
-    font-size: 30px;
-    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+  font-size: 24px;
+  color: white;
+  margin: 13px 45px;
+  padding: 0px 78px;
+  font-size: 27px;
+  font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
 }
 
 .txt00{
-  font-size: 24px; 
-    /* padding: 83px 114px; */
-    /* font-family: "Raleway", sans-serif; */
-    /* width: 90%; */
-    color: white;
-    /* margin: 5px -11px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* min-height: 80vh; */
-    margin: -2px 40px;
-    padding: 0px 75px;
-    font-size: 30px;
+  font-size: 24px;
+  color: white;
+  margin: 13px 45px;
+  padding: 0px 78px;
+  font-size: 27px;
     font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
 }
 .txt2{
@@ -559,10 +550,10 @@ display: none;
     margin:10px 50px;
 }
 .Button{
-  margin: 174px 0px;
+  margin: 165px 0px;
 }
 .Button00{
-  margin: 174px 0px;
+  margin: 165px 0px;
 }
 .join{
   display: flex;
@@ -653,6 +644,9 @@ display: none;
 .different{
   margin:40px 50px;
 }
+/* .scholarship{
+  background:url('960x0.jpg');
+} */
 .scholarship-for{
   font-size: 50px;
   text-align: center;
@@ -699,12 +693,12 @@ h6{
   flex-direction: column; */
 }
 h4{
-  padding:61px 1px;
- 
+  padding: 33px 0px;
   /* color: #000!important; */
-  color:white;
-  margin:-48px -75px;
+  color: white;
+  margin: -14px -59px;
   text-align: left;
+
 }
 h3{
   padding: 19px 8px;
@@ -920,6 +914,7 @@ h3{
   border-left:3px solid #000 ;
   
 }
+
 
 @media screen and (max-width: 758px) 
 {
@@ -1236,6 +1231,12 @@ h4{
   margin: -13px -14px;
 }
 .image00{
+  display: block;
+  width: 361px;
+  height: 41vh;
+  margin: -13px -14px;
+}
+.image0012{
   display: block;
   width: 361px;
   height: 41vh;
