@@ -1,0 +1,62 @@
+.form-container{
+    height:50vh;
+    margin:10px 10px;
+    padding:10px 10px;
+}
+#name{
+    margin:10px 10px;
+    padding: 17px 124px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#email{
+    margin:10px 10px;
+    padding: 17px 124px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#password{
+    margin:10px 10px;
+    padding: 17px 124px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#submit{
+    margin:10px 10px;
+    padding: 17px 177px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#submit:hover{
+    background:  #393f49;
+    color:white;
+}
+.form{
+    margin: 40px 300px;
+    padding: 23px 216px;
+    color: #0d3273;
+    font-size: 20px;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+h3{
+        color: #0d3273;
+        margin: 9px 84px;
+        font-size: 40px;
+        padding: 10px 10px;
+        font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+  
+}
+.text00{
+        color: #0d3273;
+        margin: 1px 40px;
+        font-size: 20px;
+        padding: 10px 10px;
+        font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}
+.placeholder{
+    color: #0d3273;
+    margin: 1px 40px;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-family: SourceSansPro,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue,Fira Sans,sans-serif;
+}

@@ -3,6 +3,40 @@
     margin:0;
     padding:0;
 }
+.alert {
+  padding: 20px ;
+  margin:10px 10px;
+  background-color: #0d3273;
+  color: white;
+}
+
+.close00{
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.script{
+  background-color: #0d3273;
+  color:white;
+}
+.close00:hover {
+  color: white;
+}
+.blink {
+  animation: blink 1.5s linear infinite;
+  color: red;
+  font-family: sans-serif;
+}
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+}
 
 .navbar{
   display: flex;
