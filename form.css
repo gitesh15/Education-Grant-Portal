@@ -23,13 +23,25 @@
 }
 #submit{
     margin:10px 10px;
-    padding: 17px 177px;
+    padding: 1px 99px;
     font-size: 14px;
     font-weight: bold;
 }
 #submit:hover{
     background:  #393f49;
     color:white;
+}
+a:visited{
+    background:  #393f49;
+    color:white;
+}
+#submit:link{
+    background:  #393f49;
+    color:black;
+}
+a:active{
+    background:  #393f49;
+    color:black;
 }
 .form{
     margin: 40px 300px;
