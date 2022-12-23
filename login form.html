@@ -22,7 +22,30 @@
       <h3>login now</h3>
       <input type="email" name="email" id="email"  placeholder="enter your email"><br>
       <input type="password" name="password" id="password" placeholder="enter your password"><br>
-      <input  onclick="signin()" type="submit" id="submit" name="submit" value="login now" class="form-btn">
+      <!-- <input  onclick="signin()" type="submit" id="submit" name="submit" value="login now" class="form-btn"><a href="scholarship.html"></a>
+      <script>
+        function signin(){
+          document.getElementById("submit").innerHTML=<a href="scholarship.html"></a>;
+        }
+        
+      </script> -->
+      <button  onclick="signin()" type="submit" id="submit" name="submit" value="login now" class="form-btn"><a href="scholarship.html">login</a>
+      <script>
+        // if(document.getElementById("submit")==document.getElementById("password")){
+        //   document.getElementById("submit").innerHTML=<a href="scholarship.html"></a>;
+        //   }
+        //   else if(document.getElementById("submit")==null){
+        //     document.getElementById("submit").innerHTML=<a href="scholarship.html"></a>;
+        //   }
+        //   else{
+        //     alert("Not matched")
+        //   }
+        function signin(){
+          
+          document.getElementById("submit").innerHTML=<a href="scholarship.html"></a>;
+        }
+        
+      </script>
       <p class="text">don't have an account? <a href="registration.html">register now</a></p>
    
     </div>
@@ -30,3 +53,4 @@
 
 </body>
 </html>
+
